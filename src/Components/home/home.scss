@@ -1,0 +1,58 @@
+// colors
+$mainColor: #1b262c;
+$secondColor: white;
+$thirdColor: #3282b8;
+
+
+
+.home-container {
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .fonts-container {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+
+        .font-label {
+            padding: 10px;
+            font-size: 1.2em;
+        }
+
+        .font-selector {
+            background-color: transparent !important;
+            border: 1px solid #dc3545;
+            font-size: 1.5em;
+            border-radius: 12px;
+            padding: 12px;
+            color: inherit;
+
+            .option {
+                color: black;
+                background-color: transparent !important;
+            }
+
+        }
+
+        h1 {
+            padding: 10px;
+        }
+    }
+
+}
+
+.light-colors {
+    color: #222831 !important;
+    background-color: #f6f6f6 !important;
+}
+
+.dark-colors {
+    color: #f6f6f6 !important;
+    background-color: #222831 !important;
+}
